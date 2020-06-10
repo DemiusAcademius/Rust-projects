@@ -1,0 +1,10 @@
+[
+    {
+        "name": "COMMON",
+        "assumexists": "true"
+    },
+    {
+        "name": "DOCUMENT",
+        "assumexists": "true"
+    }
+]

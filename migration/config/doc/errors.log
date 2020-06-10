@@ -1,0 +1,8 @@
+migration start at 2016-12-14T12:37:20.513687491+02:00migration error: can not fetch columns for foreign key: 
+
+  Error code: 1745
+  Error message: 
+  Where: ffi::oci_stmt_execute
+
+
+TOTAL: 0 hours, 0 minutes, 14 seconds

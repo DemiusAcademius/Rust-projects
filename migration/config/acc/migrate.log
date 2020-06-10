@@ -1,0 +1,87 @@
+migration start at 2017-01-02T16:10:38.509204205+02:00
+drop ABONAT
+drop ACC
+drop CADRE
+drop CALCULARI
+drop CALITATE
+drop CLIENT
+drop COMMON
+drop COMMON_N
+drop COMMON_NEW
+drop CONTABILITATE
+drop CONTABILITATEA
+drop CONTOARE_ACC
+drop CONTROLOR
+drop CONTURI
+drop CONT_DEV
+drop DOCUMENT
+drop EMAIL
+drop ENERGIA
+drop EVMAT
+drop FISC
+drop MATERIALE
+drop PLAN
+drop PLANIFICARE
+drop PRACTIC
+drop PTO
+drop SECT_REST
+drop SECT_TEH
+drop SECUR
+drop SECURITATE
+drop TJ
+drop TRANSFER
+drop TRANSPORT
+create ABONAT
+create ACC
+create CADRE
+create CALCULARI
+create CALITATE
+create CLIENT
+create COMMON
+create COMMON_N
+create COMMON_NEW
+create CONTABILITATE
+create CONTABILITATEA
+create CONTOARE_ACC
+create CONTROLOR
+create CONTURI
+create CONT_DEV
+create DOCUMENT
+create EMAIL
+create ENERGIA
+create EVMAT
+create FISC
+create MATERIALE
+create PLAN
+create PLANIFICARE
+create PRACTIC
+create PTO
+create SECT_REST
+create SECT_TEH
+create SECUR
+create SECURITATE
+create TJ
+create TRANSFER
+create TRANSPORT
+
+schema [ ABONAT ]
+  A                                                           1 rows
+  ACHIT_PER                               L                  28 rows
+  ANEXA_ADITIONALE                                           32 rows
+  APLICATIA                                                   3 rows
+  CALC                                                 12459952 rows 56 secs
+  CALCDT                                                      0 rows
+  CALC_SETARI                                                 0 rows
+  CASA_DE_LA_INFOCOM                                         66 rows
+  CASA_MARSRUT                                              414 rows
+  CASA_MULTICAL                                               6 rows
+  CASA_SUBGRUPA                                             995 rows
+  CIFRA_TO_CHAR                                              21 rows
+  CLIENT_CONDUCTE                                             0 rows
+  COLABORATORI                            P                   3 rows
+  CONDUCTA_SUPER_CONDUCTA                                     0 rows
+  CONDUCTOR                               P               45772 rows
+  CONDUCTOR_DELETE                                            1 rows
+  CONDUCTOR_OLD                           P                2951 rows
+  CONDUCT_STARE                           Lwait for INDEXES...
+TOTAL: 0 hours, 1 minutes, 18 seconds

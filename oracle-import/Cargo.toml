@@ -1,0 +1,8 @@
+[package]
+name = "oracle-import"
+version = "0.1.1"
+authors = ["Demius Academius <demius.md@gmail.com>"]
+
+[dependencies]
+getopts = "0.2"
+rust-ini = "0.9"

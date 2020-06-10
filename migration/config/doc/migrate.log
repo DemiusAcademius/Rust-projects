@@ -1,0 +1,109 @@
+migration start at 2016-12-14T12:37:20.513099900+02:00
+
+schema [ COMMON ]
+  ADRESA_OBIECTE                          P allready exists
+  DIRECTIA                                P allready exists
+  DOCUMENTE_DRC                           L        16 rows
+  DOCUMENTE_DRC20140312                   L        16 rows
+  LISTA_DOC                                 allready exists
+  LUNILE_ROM                              P allready exists
+  SECUR_UTILIZATOR_CANC                   P       168 rows
+  TRANSMIS_DOCUMENT                         allready exists
+  TRANSMIS_DOCUMENT_S                            1890 rows
+  T_CONTINUT_SUCCINT                        allready exists
+  T_CONTINUT_SUCCINT_S                           1113 rows
+  T_FUNCTII                               P        62 rows
+  T_GRUPA_CLIENT                            allready exists
+  T_GRUPA_CONTINUT                        P allready exists
+  T_GRUPE_PROCES                          P allready exists
+  T_MENTIUNI                              P allready exists
+  T_MENT_EXEC                             P allready exists
+  T_NOMENCLATOR                             allready exists
+  T_REZOLUTIA_MENTIUNI                    P allready exists
+  T_SERVICIU_DIRECTIA                       allready exists
+  T_STATE                                 P allready exists
+  T_TIP_CLIENT                            P allready exists
+  T_TIP_DIRECTIA_CANCELAR                 P allready exists
+  T_TIP_DOCUMENT                          P allready exists
+  T_TIP_DOC_VENIT                         P allready exists
+
+SEQUENCES...
+
+schema [ DOCUMENT ]
+  ACCES_DOCUMENT                            allready exists
+  ACCES_DRC                                        52 rows
+  ACCES_SS                                         20 rows
+  AGENDA_INGINER                            allready exists
+  ANUNT                                           101 rows
+  CLIENT_LISTADOC_PHX1                      allready exists
+  CONTRACTARE                             P       211 rows
+  CONTRACTARE_MAIL                              10123 rows
+  DOCUMENTE_CONTINUT                      P allready exists
+  DOCUMENTE_SMI                           P allready exists
+  DOCUMENT_USER                             allready exists
+  DOC_CLIENT_PHX1                           allready exists
+  DOC_SISTEMA_GRUPA                         allready exists
+  DOC_USER_VIZUAL                           allready exists
+  DOSAR                                     allready exists
+  DOSAR_ELECTRONIC                                897 rows
+  DOSAR_MMI                                 allready exists
+  DOSAR_SV_15                                     158 rows
+  GRUPA_DOCUMENTE                           allready exists
+  GRUPA_DOC_DRC_15                                  9 rows
+  GRUPA_DOC_PHX1                            allready exists
+  GRUPA_DOC_SMI                           P allready exists
+  GRUPE_INSTR                               allready exists
+  HISTORY_SCRIS                                 78454 rows 1 secs
+  IESIRE_ARHIV                            L         0 rows
+  IESIRE_DRC                              L         0 rows
+  LISTA_DEFUZARE                            allready exists
+  LISTA_DEFUZARE_S                                302 rows
+  LISTA_DEF_SCRISORII                           16682 rows
+  LISTA_DOCUMENTE                           allready exists
+  LISTA_DOC_PHX1                            allready exists
+  LISTA_VIZAT_DOC                           allready exists
+  MODUL_EXPEDIERE                         P         4 rows
+  NOTA_SCRIS_DRC                                  184 rows
+  NR_PRESCRIPTII                            allready exists
+  NUMAR_PRESCRIPTII_AP                      allready exists
+  NUMBER_LIST                               allready exists
+  OBSERVATII                                    23319 rows
+  PLAN_TABLE                                allready exists
+  PR_MAIL                                           1 rows
+  SCRISORI_ANULATE                        P         0 rows
+  SCRISORI_DRC                            P allready exists
+  SCRIS_EMAIL_EXEC                              82608 rows 6 secs
+  SCRIS_MAIL_SV                                     0 rows
+  SCRIS_SV                                         13 rows
+  SC_STARE                                          0 rows
+  SECUR_UTIL_101                          P allready exists
+  STAREA_SCRISORI                         P        11 rows
+  STRAZI_GRESITE_INFOCOM                    allready exists
+  SUBGRUPA_DOC_SMI                        P allready exists
+  SUMA_RECLAMATE                                    5 rows
+  TARIF_SCRISORI                            allready exists
+  TELEFON_INFOCOM                           allready exists
+  TEMA_DUBL                                        21 rows
+  TEMA_SCRISORII                                   16 rows
+  TEXTE_SCRSORI_EMAIL                     P         4 rows
+  TIP_CLIENT_PHX1                           allready exists
+  TIP_DOCUMENTE                             allready exists
+  TIP_DOC_EXPEDIAT                          allready exists
+  TIP_SCRISOARE                           P        14 rows
+  TIP_SCRISORII                             allready exists
+  T_PETITII                               P         3 rows
+  T_SCRIS                                           2 rows
+  T_SSTEMA                                          3 rows
+  T_SUBTEMA                                        46 rows
+  T_TIP_CLIENT                              allready exists
+  T_TIP_CONTINUT_SCRISORI                   allready exists
+  T_TIP_DIRECTIA_CANCELAR                 P allready exists
+  T_VIZITA_SCOP                             allready exists
+  UTILIZATORI_SEF_DRC                             103 rows
+  ZI_SARBATORII                                    22 rows
+
+SEQUENCES...
+
+FOREIGN KEYS...
+wait for INDEXES...
+TOTAL: 0 hours, 0 minutes, 14 seconds

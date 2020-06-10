@@ -1,0 +1,14 @@
+{
+  "source": {
+    "uri": "//Oracle.apa-canal.md:1521/ACC",
+    "user": "system",
+    "pw": "na-gorshke-sidel-korol"
+  },
+  "destination": {
+    "uri": "//oracle-linux.apa-canal.md:1521/ACC",
+    "user": "system",
+    "pw": "na-gorshke-sidel-korol"
+  },
+  "buffer_size": "1024",
+  "luna_calc": "200501"
+}
