@@ -1,0 +1,61 @@
+[package]
+name = "identity-server-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web =  { version = "4", features = ["rustls"] }
+config = "0.13.2"
+dotenv = "0.15.0"
+futures-util = "0.3.23"
+
+env_logger = "0.9"
+log = "0.4"
+
+rustls = "0.20.2"       # for https
+rustls-pemfile = "1"    # for https
+
+ring = "0.16.20"        # generate password hash
+base64 = "0.13.0"       # endcode/decode password hash into/from Base64
+
+# serialize/deserialize
+serde = { version = "1.0.143", features = ["derive", "rc"] }
+
+# date and time
+chrono = { version = "0.4.22", features = ["serde"] }
+
+# for errors etc
+derive_more = "0.99.17"
+
+# for postgres
+deadpool-postgres = { version = "0.10.2", features = ["serde"] }
+
+native-tls = "0.2.10"            # for postgres SSL
+postgres-native-tls = "0.5.0"    # for postgres SSL
+tokio-native-tls = "0.3.0"       # for postgres SSL
+tokio-postgres = { version = "0.7.6", features = ["with-chrono-0_4"] }
+
+# generate auth tokens
+[dependencies.uuid]
+version = "1.1.2"
+features = [
+    "v4",                # Lets you generate random UUIDs
+    "fast-rng",          # Use a faster (but still sufficiently random) RNG
+    "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+    "serde"              # Enable serialize/deserialize
+]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+lto = true        # Enable link Time Optimization
+panic = 'abort'   # Abort on panic
+codegen-units = 2 # Parallel Codegeneration (default: 16)
+
+## build for release: cargo build --release
+## for full minification (strip debug symbols):
+## strip target/release/server

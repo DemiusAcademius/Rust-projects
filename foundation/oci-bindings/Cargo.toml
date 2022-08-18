@@ -1,0 +1,8 @@
+[package]
+name = "oci-bindings"
+version = "0.1.0"
+authors = ["Dmitri Astafiev <DemiusAcademius@users.noreply.github.com>"]
+
+links = "oci"
+build = "build.rs"
+license = "MIT OR Apache-2.0"

@@ -1,0 +1,14 @@
+{
+  "source": {
+    "uri": "//10.10.0.104:1521/DOC",
+    "user": "system",
+    "pw": "dgsdg"
+  },
+  "destination": {
+    "uri": "//oracle-linux.apa-canal.md:1521/ACC",
+    "user": "system",
+    "pw": "sdgsdg"
+  },
+  "buffer_size": "512",
+  "luna_calc": "200501"
+}

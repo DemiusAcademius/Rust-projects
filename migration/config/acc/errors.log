@@ -1,0 +1,16 @@
+migration start at 2017-01-02T16:10:38.516367029+02:00can not create index: ABONAT.CALC_IDX_2 with error: 
+
+  Error code: 1013
+  Error message: 
+  Where: ffi::oci_stmt_execute
+
+
+   sql: create index ABONAT.CALC_IDX_2 on ABONAT.CALC("LUNA","CONSUMATOR_ID","CATEGORIA") tablespace GRAND_INDEX NOLOGGING
+migration error: can not fetch from table: CONDUCT_STARE with error: 
+
+  Error code: 1013
+  Error message: 
+  Where: ffi::oci_stmt_fetch
+
+
+TOTAL: 0 hours, 1 minutes, 18 seconds

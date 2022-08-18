@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="189cf3b1-c3db-401e-bf80-ba5effb79331" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/migration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="tiy7bkrt" />
+  </component>
+  <component name="ProjectId" id="1clVkhzTLaycC4jbdhQSOPpGOs6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/acc-server-admin/Documents/rust-projects/migration/src/main.rs" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/acc-server-admin/Documents/rust-projects/migration/target/debug/build/migration-7190eb08e2f0b030/out/oci-bindings.rs" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Run migration" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package migration --bin migration" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="/opt/oracle/instantclient_19_3/" />
+      </envs>
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Run migration" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="189cf3b1-c3db-401e-bf80-ba5effb79331" name="Default Changelist" comment="" />
+      <created>1591103312166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591103312166</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591103705808">
+      <screen x="50" y="27" width="1870" height="989" />
+    </state>
+    <state x="443" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/50.27.1870.989@50.27.1870.989" timestamp="1591103705808" />
+    <state x="825" y="263" width="729" height="523" key="EnvironmentVariablesDialog" timestamp="1591103704296">
+      <screen x="50" y="27" width="1870" height="989" />
+    </state>
+    <state x="825" y="263" width="729" height="523" key="EnvironmentVariablesDialog/50.27.1870.989@50.27.1870.989" timestamp="1591103704296" />
+    <state width="1824" height="407" key="GridCell.Tab.0.bottom" timestamp="1591105613090">
+      <screen x="50" y="27" width="1870" height="989" />
+    </state>
+    <state width="1824" height="407" key="GridCell.Tab.0.bottom/50.27.1870.989@50.27.1870.989" timestamp="1591105613090" />
+    <state width="1824" height="407" key="GridCell.Tab.0.center" timestamp="1591105613088">
+      <screen x="50" y="27" width="1870" height="989" />
+    </state>
+    <state width="1824" height="407" key="GridCell.Tab.0.center/50.27.1870.989@50.27.1870.989" timestamp="1591105613088" />
+    <state width="1824" height="407" key="GridCell.Tab.0.left" timestamp="1591105613085">
+      <screen x="50" y="27" width="1870" height="989" />
+    </state>
+    <state width="1824" height="407" key="GridCell.Tab.0.left/50.27.1870.989@50.27.1870.989" timestamp="1591105613085" />
+    <state width="1824" height="407" key="GridCell.Tab.0.right" timestamp="1591105613089">
+      <screen x="50" y="27" width="1870" height="989" />
+    </state>
+    <state width="1824" height="407" key="GridCell.Tab.0.right/50.27.1870.989@50.27.1870.989" timestamp="1591105613089" />
+    <state x="474" y="156" width="1022" height="737" key="SettingsEditor" timestamp="1591104677793">
+      <screen x="50" y="27" width="1870" height="989" />
+    </state>
+    <state x="474" y="156" width="1022" height="737" key="SettingsEditor/50.27.1870.989@50.27.1870.989" timestamp="1591104677793" />
+  </component>
+</project>
