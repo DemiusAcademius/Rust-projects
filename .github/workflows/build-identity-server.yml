@@ -12,6 +12,6 @@ jobs:
         with:
           toolchain: stable
       - name: Build project
-        run |
+        run: |
           cd ./identity-server-rs
           cargo build --release --all-features
