@@ -11,8 +11,7 @@ jobs:
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
-      - uses: actions-rs/cargo@v1
-        with:
-          command: 
-            - cd identity-server-rs
-            - build --release --all-features
+      - name: Build project
+        run |
+          cd ./identity-server-rs
+          cargo build --release --all-features
