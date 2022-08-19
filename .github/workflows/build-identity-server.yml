@@ -17,7 +17,7 @@ jobs:
           cargo build --release --all-features
           ls -la ./target/releaze
 
-     - name: Create release tag-name
+      - name: Create release tag-name
         id: release-vars
         run: |
           echo ::set-output name=tag::$(date +'%y.%m.%d-%H%M')
